@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="@dimen/dimen_19"
+        android:paddingEnd="@dimen/dimen_25"
+        android:paddingStart="@dimen/dimen_25"
+        android:paddingTop="@dimen/dimen_22">
+
+        <com.molekule.android.custom.CustomTextView
+            android:id="@+id/text_dialog_title"
+            style="@style/TitleTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:fontPath="@string/akkurat_pro_bold" />
+
+        <com.molekule.android.custom.CustomTextView
+            android:id="@+id/text_dialog_msg"
+            style="@style/ItemTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_dialog_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_12"
+            android:lineSpacingExtra="@dimen/dp_5"
+            custom:fontPath="@string/akkurat_pro_light" />
+
+        <com.molekule.android.custom.CustomTextView
+            android:id="@+id/text_btn_positive"
+            style="@style/ItemTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/text_dialog_msg"
+            android:layout_marginTop="@dimen/dp_30"
+            android:padding="@dimen/dp_10"
+            android:textAllCaps="true"
+            android:textColor="@color/dialog_button_color"
+            android:textSize="@dimen/sp_14"
+            custom:fontPath="@string/akkurat_pro_bold" />
+
+        <com.molekule.android.custom.CustomTextView
+            android:id="@+id/text_btn_negative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_dialog_msg"
+            android:layout_marginEnd="@dimen/dp_30"
+            android:layout_marginTop="@dimen/dp_30"
+            android:layout_toStartOf="@+id/text_btn_positive"
+            android:padding="@dimen/dp_10"
+            android:textAllCaps="true"
+            android:textColor="@color/dialog_button_color"
+            android:textSize="@dimen/sp_14"
+            custom:fontPath="@string/akkurat_pro_bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

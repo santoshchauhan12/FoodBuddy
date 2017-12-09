@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="colorPrimary">#0c404f</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#fd5b43</color>
+        <color name="white">#ffffff</color>
+        <color name="spinnerItem">#AAAAAA</color>
+        <color name="editText">#AAAAAA</color>
+        <color name="buttonText">#EEEEEE</color>
+        <color name="headerText">#EEEEEE</color>
+        <color name="light_grey">#e5e5e5</color>
+        <color name="black">#000000</color>
+
+        <color name="semi_white">#80ffffff</color>
+        <color name="semi_white_two">#99ffffff</color>
+        <color name="darkgrey">#00ffffff</color>
+        <color name="divider">#dfdfdf</color>
+        <color name="edit_text_bg">#00ffffff</color>
+        <color name="orange">#ff5a3b</color>
+        <color name="header_color">#364a4f</color>
+        <color name="green">#00da9c</color>
+        <color name="walkthrough_desc">#81ABBE</color>
+        <color name="payment_header">#3a4e53</color>
+        <color name="text_header_bg">#364a4f</color>
+        <color name="bg_shadow">#dfe3e6</color>
+        <color name="silver">#b8c2c8</color>
+        <color name="dark_grey_shadow">#dfe3e6</color>
+
+
+        <!--dialog -->
+        <color name="dialog_desc_color">#9ea3a4</color>
+        <color name="greytext">#9ea3a4</color>
+        <color name="btn_grey">#4d9ea3a3</color>
+        <color name="btn_grey_text">#898e8f</color>
+        <color name="edittext_color">#b3364a4f</color>
+        <color name="edit_text_hint_color">#7AA7AF</color>
+        <color name="switch_off_color">#c7cfd4</color>
+
+
+        <!--custom color-->
+        <color name="tint_color">#33000000</color>
+        <color name="base_theme_dark">#0c404f</color>
+        <color name="coral_red">#fd5b43</color>
+        <color name="charcoal_grey">#3a4e53</color>
+        <color name="cool_grey">#898e8f</color>
+        <color name="charcoal_grey_two">#364a4f</color>
+        <color name="fb_blue">#4971c3</color>
+        <color name="toobar_bg">#0c404f</color>
+        <color name="white_two">#d8d8d8</color>
+        <color name="dialog_deny_grey">#898e8f</color>
+        <color name="grey_background">#F4F7F7</color>
+        <color name="payment_text_color">#073757</color>
+        <color name="aquamarine">#00da9c</color>
+        <color name="header_bg">#f5f7f7</color>
+        <color name="button_background_grey">#b8c2c8</color>
+        <color name="carrier_text_color">#87B2B8</color>
+        <color name="text_disabled_color">#8f898e8f</color>
+        <color name="text_bg">#c7cfd4</color>
+        <color name="notification_bg">#f5f7f8</color>
+        <color name="verify_id_background">#0d3e50</color>
+        <color name="violet">#bd10e0</color>
+        <color name="dashboard_grey">#7f9297</color>
+        <color name="semi_charcol_grey">#B33a4e53</color>
+        <color name="hint_color">#80898e8f</color>
+
+        <color name="transparent">#00FFFFFF</color>
+        <color name="progress_start_color">#6699CC</color>
+        <color name="progress_end_color">#6699CC</color>
+
+        <!--AwbProgressView colors-->
+        <color name="style_color_accent">#364a4f</color>
+        <color name="progress_outer_color">#fd5b43</color>
+</resources>

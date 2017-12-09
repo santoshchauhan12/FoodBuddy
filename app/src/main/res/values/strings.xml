@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FoodBuddy</string>
+    <string name="facebook_app_id">428954270868501</string>
+
+    <string name="fb_email">email</string>
+    <string name="fb_image">image</string>
+    <string name="fb_id">id</string>
+    <string name="fb_public_profile">public_profile</string>
+    <string name="fb_fname">first_name</string>
+    <string name="fb_lname">last_name</string>
+
+</resources>
