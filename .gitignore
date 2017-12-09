@@ -8,8 +8,20 @@
 # Built application files
 build
 
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+/captures
+
 # Local configuration file (sdk path, etc)
 local.properties
+
+/local.properties
 
 captures
 gradle
