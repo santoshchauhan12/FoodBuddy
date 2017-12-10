@@ -73,7 +73,7 @@ class OnBoardActivity : AppCompatActivity(), FBSignUpContract.View {
     private fun setListeners() {
         mLoginBtn.setOnClickListener(View.OnClickListener {
 
-            fbSignIn()
+            //fbSignIn()
         })
         mSignUpBtn.setOnClickListener(View.OnClickListener {
             fbSignUp()
