@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.text.TextUtils
 import android.view.View
+import android.widget.Toast
 import com.droidpro.foodbuddy.R
 import com.droidpro.foodbuddy.constants.FbdConstants
 import com.droidpro.foodbuddy.features.HomeActivity
@@ -150,14 +151,14 @@ class OnBoardActivity : AppCompatActivity(), FBSignUpContract.View {
     }
 
     private fun setPreferncesData() {
-        hideProgress()
+       /* hideProgress()
         PreferenceManager.set(this, FbdConstants.Signup.FB_ID, mFbId)
         PreferenceManager.set(this, AppConstants.Signup.FB_ACCESS_TOKEN, mFbAccessToken)
         PreferenceManager.set(this, AppConstants.User.NAME, mFullName)
         PreferenceManager.set(this, AppConstants.User.EMAIL, mEmail)
         PreferenceManager.set(this, AppConstants.User.IMAGE_URL, mFbImgUrl)
         startActivity(Intent(this@FbSignUpActivity, FbSignUpDetailsActivity::class.java))
-        overridePendingTransition(R.anim.fadein, R.anim.fadeout)
+        overridePendingTransition(R.anim.fadein, R.anim.fadeout)*/
     }
 
 
