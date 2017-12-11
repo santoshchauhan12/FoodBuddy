@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.View;
 
 /**
@@ -54,6 +55,7 @@ public class BaseFragment extends Fragment {
     }
 
     public boolean onBackPressed() {
+        Log.i("base fragment", "added log on back pressed");
         return false;
     }
 
