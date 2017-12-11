@@ -10,10 +10,13 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.animation.LinearOutSlowInInterpolator;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.Toast;
+
+import java.util.logging.Logger;
 
 /**
  * Created by deepak on 19/4/17.
@@ -218,6 +221,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                     public void run() {
                         if (null != container) {
                             if (mIsRemoveAnim) {
+                                Log.i("Base Activity" , "added log on animation ");
                                 removeAnimation(container);
                             } else {
                                 mIsRemoveAnim = true;
