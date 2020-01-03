@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.text.TextUtils
 import android.view.View
+import android.widget.Toast
 import com.droidpro.foodbuddy.R
 import com.droidpro.foodbuddy.constants.FbdConstants
 import com.droidpro.foodbuddy.features.HomeActivity
@@ -72,10 +73,10 @@ class OnBoardActivity : AppCompatActivity(), FBSignUpContract.View {
     private fun setListeners() {
         mLoginBtn.setOnClickListener(View.OnClickListener {
 
-            fbSignIn()
+            //fbSignIn()
         })
         mSignUpBtn.setOnClickListener(View.OnClickListener {
-            fbSignUp()
+            //fbSignUp()
         })
 
     }
@@ -140,7 +141,7 @@ class OnBoardActivity : AppCompatActivity(), FBSignUpContract.View {
             if (AccessToken.getCurrentAccessToken() != null) {
                 mFbAccessToken = AccessToken.getCurrentAccessToken().token
                 getFbData(jsonObject)
-                setPreferncesData()
+                //setPreferncesData()
             }
         }
         val parameters = Bundle()
