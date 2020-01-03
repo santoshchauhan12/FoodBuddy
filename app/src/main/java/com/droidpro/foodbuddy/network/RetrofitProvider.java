@@ -125,7 +125,7 @@ public class RetrofitProvider {
         mMolekuleWriteRestApi = retrofitBuilder.build().create(FoodBuddyRestApi.class);
     }
 
-
+    //Get ok http object
     @NonNull
     private OkHttpClient.Builder getOkHttpBuilder() {
         OkHttpClient.Builder okHttpClientBuilder = new OkHttpClient.Builder();
